@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AttributeDirectivesNgClass';
+
+  isActive = true;
+  isDisabled = true;
+  isSuccess = true;
+  isWarning = false;
+  isError = true;
+
+
 }
